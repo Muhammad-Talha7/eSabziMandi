@@ -16,10 +16,10 @@ SET FOREIGN_KEY_CHECKS = 1;
 -- 1. Users
 -- password_hash is for "password123" (bcrypt)
 INSERT INTO users (name, email, password_hash, role, phone, verified, created_at) VALUES
-('Admin User', 'admin@test.com', '$2b$12$EixZaYVK1fsbw1ZfbX3OXePaWxn96p36WQoeG6Lruj3vjIQqiRQYq', 'admin', '03001234567', 1, NOW()),
-('Ali Farmer', 'farmer@test.com', '$2b$12$EixZaYVK1fsbw1ZfbX3OXePaWxn96p36WQoeG6Lruj3vjIQqiRQYq', 'farmer', '03001112222', 1, NOW()),
-('Zain Buyer', 'buyer@test.com', '$2b$12$EixZaYVK1fsbw1ZfbX3OXePaWxn96p36WQoeG6Lruj3vjIQqiRQYq', 'buyer', '03003334444', 1, NOW()),
-('Ahmed Rider', 'rider@test.com', '$2b$12$EixZaYVK1fsbw1ZfbX3OXePaWxn96p36WQoeG6Lruj3vjIQqiRQYq', 'rider', '03005556666', 1, NOW());
+('Admin User', 'admin@test.com', '$2b$12$i2hhTRrR6XwWnHgwnlKea.jJNRNrMx8t1lVEPpeQGZvNG3rC3VXeq', 'admin', '03001234567', 1, NOW()),
+('Ali Farmer', 'farmer@test.com', '$2b$12$i2hhTRrR6XwWnHgwnlKea.jJNRNrMx8t1lVEPpeQGZvNG3rC3VXeq', 'farmer', '03001112222', 1, NOW()),
+('Zain Buyer', 'buyer@test.com', '$2b$12$i2hhTRrR6XwWnHgwnlKea.jJNRNrMx8t1lVEPpeQGZvNG3rC3VXeq', 'buyer', '03003334444', 1, NOW()),
+('Ahmed Rider', 'rider@test.com', '$2b$12$i2hhTRrR6XwWnHgwnlKea.jJNRNrMx8t1lVEPpeQGZvNG3rC3VXeq', 'rider', '03005556666', 1, NOW());
 
 -- 2. Products
 INSERT INTO products (farmer_id, name, category, price, starting_price, quantity, unit, image_url, status, created_at) VALUES
