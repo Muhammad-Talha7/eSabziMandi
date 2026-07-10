@@ -35,6 +35,7 @@ CREATE TABLE products (
     name VARCHAR(255) NOT NULL,
     category VARCHAR(255) NOT NULL,
     price DECIMAL(10,2) NOT NULL,
+    starting_price DECIMAL(10,2) NOT NULL DEFAULT 0.0,
     quantity DECIMAL(10,2) NOT NULL,
     unit VARCHAR(50) NOT NULL,
     image_url TEXT,
