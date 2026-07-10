@@ -1,0 +1,14 @@
+:root {
+  --color-primary: #1B4D8C;
+  --color-primary-light: #E8F0FA;
+  --color-primary-dark: #123663;
+  --color-white: #FFFFFF;
+  --color-ink: #1A1F29;
+  --color-muted: #5C6B7A;
+  --color-border: #D8E2F0;
+  --color-error: #C0392B;
+  --color-success: #2E7D4F;
+  --radius: 4px;
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --spacing-unit: 8px;
+}
